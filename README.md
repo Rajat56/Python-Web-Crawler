@@ -22,20 +22,33 @@ Example of root url:-
 "File_Path" : "",
 
 "Created_At" : ISODate("2020-08-29T12:46:00.000Z")}
+
+
 Run locally from command line
+
 First download and install MongoDB and a GUI tool of your choice (Robo 3T is a good option)
 
 Install virtual environment first
 
    pip install virtualenv
 Set up virtual environment with name myproject
-   virtualenv myproject
+  
+  virtualenv myproject
 Activate virtual environment
-   (Linux) $ source myproject/bin/activate
+  
+  (Linux) $ source myproject/bin/activate
 
 
    (Windows) > myproject\Scripts\activate
+
+
 Install dependencies
-   pip install -r requirements.txt
+  
+  
+  pip install -r requirements.txt
+
+
 To start crawling process
-    python3 crawler.py
+   
+   
+   python3 crawler.py
